@@ -46,7 +46,7 @@ The current display core implements the following:
 
 ## Live Debugger
 
-A side effect of the memory mirror is that the Pi can be used for live inspection of the host's memory. 
+A side effect of the memory mirror is that the Pi can be used for live inspection of the host's memory. So far I've only used this to debug the display list and inspect screen memory, but I intend to add a proper monitor tool with disassembly.
 
 
 ![Debugging](images/C64-Debugging.jpg)
