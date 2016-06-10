@@ -47,3 +47,6 @@ The current display core implements the following:
 ## Live Debugger
 
 A side effect of the memory mirror is that the Pi can be used for live inspection of the host's memory. 
+
+
+![Debugging](images/C64-Debugging.jpg)
