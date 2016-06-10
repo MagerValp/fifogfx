@@ -1,0 +1,137 @@
+Rev1/2 40-pin host connector
+============================
+
+    x        1   2    /RES
+    D7       3   4    /W
+    D6       5   6    A15
+    D5       7   8    A14
+    D4       9  10    A13
+    D3      11  12    A12
+    D2      13  14    A11
+    D1      15  16    A10
+    D0      17  18    A9
+    x       19  20    A8
+    x       21  22    x
+    x       23  24    A7
+    x       25  26    A6
+    x       27  28    A5
+    x       29  30    A4
+    x       31  32    A3
+    x       33  34    A2
+    x       35  36    A1
+    x       37  38    A0
+    x       39  40    GND
+
+Rev3 40-pin host connector
+==========================
+
+    GND      1   2    A19
+    /RES     3   4    A18
+    /W       5   6    A17
+    D15      7   8    A16
+    D14      9  10    A15
+    D13     11  12    A14
+    D12     13  14    A13
+    D11     15  16    A12
+    D10     17  18    A11
+    D9      19  20    A10
+    D8      21  22    A9
+    D7      23  24    A8
+    D6      25  26    A7
+    D5      27  28    A6
+    D4      29  30    A5
+    D3      31  32    A4
+    D2      33  34    A3
+    D1      35  36    A2
+    D0      37  38    A1
+    GND     39  40    A0
+
+
+40-pin Raspberry Pi GPIO connector
+==================================
+
+    PIN     GPIO    Pi      Rev1/2  Rev3
+    ------- ------- ------- ------- -------
+    27      BCM  0  ID_SD           
+    28      BCM  1  ID_SC           
+     3      BCM  2          x       VBL
+     5      BCM  3          x       x
+     7      BCM  4          x       DATA8
+    29      BCM  5          x       DATA9
+    31      BCM  6          x       DATA10
+    26      BCM  7          x       DATA11
+    24      BCM  8          x       DATA12
+    21      BCM  9          x       DATA13
+    19      BCM 10          x       DATA14
+    23      BCM 11          x       DATA15
+    32      BCM 12          x       DATA16
+    33      BCM 13          x       DATA17
+     8      BCM 14  TXD     
+    10      BCM 15  RXD     
+    36      BCM 16          RAL     RA
+    11      BCM 17          RAH     RD
+    12      BCM 18          RD      IRQ
+    35      BCM 19          IRQ     EMPTY   
+    38      BCM 20          DATA0   DATA0   
+    40      BCM 21          DATA1   DATA1   
+    15      BCM 22          DATA2   DATA2   
+    16      BCM 23          DATA3   DATA3   
+    18      BCM 24          DATA4   DATA4   
+    22      BCM 25          DATA5   DATA5   
+    37      BCM 26          DATA6   DATA6   
+    13      BCM 27          DATA7   DATA7   
+     1      3v3
+    17      3v3
+     2      5v
+     4      5v
+     6      GND
+     9      GND
+    14      GND
+    20      GND
+    25      GND
+    30      GND
+    34      GND
+    39      GND
+
+    PIN     GPIO    Pi      Rev1/2  Rev3
+    ------- ------- ------- ------- -------
+     1      3v3
+     2      5v
+     3      BCM  2          x       VBL
+     4      5v
+     5      BCM  3          x       x
+     6      GND
+     7      BCM  4          x       DATA8
+     8      BCM 14  TXD     
+     9      GND
+    10      BCM 15  RXD     
+    11      BCM 17          RAH     RD
+    12      BCM 18          RD      IRQ
+    13      BCM 27          DATA7   DATA7   
+    14      GND
+    15      BCM 22          DATA2   DATA2   
+    16      BCM 23          DATA3   DATA3   
+    17      3v3
+    18      BCM 24          DATA4   DATA4   
+    19      BCM 10          x       DATA14
+    20      GND
+    21      BCM  9          x       DATA13
+    22      BCM 25          DATA5   DATA5   
+    23      BCM 11          x       DATA15
+    24      BCM  8          x       DATA12
+    25      GND
+    26      BCM  7          x       DATA11
+    27      BCM  0  ID_SD           
+    28      BCM  1  ID_SC           
+    29      BCM  5          x       DATA9
+    30      GND
+    31      BCM  6          x       DATA10
+    32      BCM 12          x       DATA16
+    33      BCM 13          x       DATA17
+    34      GND
+    35      BCM 19          IRQ     EMPTY   
+    36      BCM 16          RAL     RA
+    37      BCM 26          DATA6   DATA6   
+    38      BCM 20          DATA0   DATA0   
+    39      GND
+    40      BCM 21          DATA1   DATA1   
