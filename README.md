@@ -3,12 +3,16 @@ FIFOgfx
 
 ### An open source graphics card targeted at 8/16-bit computers.
 
+![Screenshots](images/Screenshots.png)
+
 This repository <s>contains</s> will contain schematics, drivers, and demo programs for my graphics card project. It aims to fill the void between classic graphics chips, which are hard to integrate in modern systems, and modern FPGA based solutions and GPUs that require complex, proprietary development tools. The card can be built entirely with through hole components and the total bill of materials is less than $50. The focus is on *fun* graphics so it supports 60 fps scrolling, sprites, and raster effects, but of course it also handles regular text modes.
 
 
 ## Architecture
 
 The graphics card interfaces with the host computer by snooping the system bus for memory writes, which are mirrored into a Raspberry Pi via a FIFO buffer board. The card is transparent to the host computer, and is programmed via display lists in the host's memory. Using a microcontroller to build a display adapter is by no means a new idea, but they tend to be limited in what they can do by the strict timing requirements, as neither the host bus nor the video generator tolerate any latency. My main contribution is the FIFO buffer board that relaxes the timing requirement and allows a dirt cheap Raspberry Pi zero running Linux to act as a relatively powerful graphics card with HDMI out.
+
+![Prototype Rev 2](images/Prototype-Rev2.jpg)
 
                 .-----------.   .------------.   .---------.
     Computer => | Interface |=>=| FIFO board |=>=| Pi Zero | => HDMI
