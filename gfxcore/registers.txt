@@ -1,3 +1,6 @@
+NOTE: Write word registers hi byte before lo byte.
+
+
 00	MODE_CTRL	.W.HCC.B
 01	SCROLL		YYYYXXXX
 02-03	SCREEN_BASE
