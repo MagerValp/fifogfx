@@ -1,0 +1,17 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CONN_02X22
+D Connector 02x22
+$ENDCMP
+#
+$CMP c64cartedge
+D C64 cartridge edge connector
+K edge connector
+$ENDCMP
+#
+$CMP fifobus
+D FIFO board bus connector
+K fifo bus connector
+$ENDCMP
+#
+#End Doc Library
